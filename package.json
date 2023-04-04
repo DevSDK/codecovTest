@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write \"{libs,pages, tests}/**/*.{css,scss,js,jsx,ts,tsx}\"",
-    "jest": "jest"
+    "jest": "jest",
+    "test:ci": "jest --collect-coverage"
   },
   "dependencies": {
     "@types/node": "18.15.11",
