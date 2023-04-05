@@ -5,6 +5,11 @@ describe('Add operation', ()=> {
     expect(add(1,2)).toBe(3)
   })
 
+  it("4 + 4 must be 8", () => {
+    expect(add(4,4)).toBe(8)
+  })
+
+
   it('test a function working conditionally', ()=> {
     expect(addWithBranch(4,3, false)).toBe(7)
   })
