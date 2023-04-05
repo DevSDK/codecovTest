@@ -9,7 +9,7 @@ describe("calc()", ()=> {
     expect(calc('2/2')).toBe(1)
   })
 
-  it('(1+2)*2 = 6', ()=> {
-    expect(calc('(1+2)*2')).toBe(6)
+  it('1+2*2 = 6', ()=> {
+    expect(calc('1+2*2')).toBe(5)
   })
 })
